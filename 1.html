@@ -12,6 +12,15 @@
         #post1{
             background-color: aquamarine;
         }
+        table,td,th{
+            border: 1px solid black; 
+            border-radius: 10% 20% 50%;
+
+        }
+        #paodealho:hover{
+            background-color: yellow;
+            font-size: 20pt;
+        }
     </style>
 </head>
 <body>
@@ -34,9 +43,36 @@
         <li>matheus</li>
 
     </ul>
+    <table>
+        <tr>
+        
+            <th>Item</th>
+            <th>Quantidade</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>Carne</td>
+            <td>3KG</td>
+            <td>23R$</td>
+        </tr>
+        <tr>
+            <td id="paodealho">pão de alho</td>
+            <td>2 pacotes</td>
+            <td>15R$</td>
+        </tr>
+        <tr>
+            <td>Linguiça</td>
+            <td>1Kg</td>
+            <td>20R$</td>
+        </tr>
+        <tr>
+            <th colspan="2">Total</th>
+            
+            <td>73R$</td>
+        </tr>
+    </table>
 
 
 </div>
-</body>
 </body>
 </html>
